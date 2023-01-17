@@ -109,6 +109,7 @@ final class GoogleMapController
 
   @Override
   public View getView() {
+    Log.d("AndroidGoogleMapSizeMeasure", "w/h : "+mapView.getWidth()+"/"+mapView.getHeight());
     return mapView;
   }
 
